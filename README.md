@@ -401,7 +401,7 @@ Swap: 15Gi total, 0B used
 
 Uso de disco:
 /dev/sda2 863G 118G 702G 15% /
-/dev/dm-0 454G 386G 69G 85% /media/mauriciodmo/OS
+/dev/dm-0 454G 386G 69G 85% /media/AlexGomez/OS
 ```
 
 ## Mejora propuesta
@@ -425,7 +425,7 @@ ps aux --sort=-%cpu | head
 
 ## ¿Qué componente representa mayor riesgo?
 
-El almacenamiento montado en `/media/mauriciodmo/OS` debido a su 85% de uso.
+El almacenamiento montado en `/media/AlexGomez/OS` debido a su 85% de uso.
 
 ## ¿El servidor está estable?
 
