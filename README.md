@@ -205,7 +205,7 @@ sda      8:0    0 863.6G  0 disk
 
 ## Interpretación técnica
 
-Existe un nivel de uso alto en la partición montada en `/media/mauriciodmo/OS`, aunque todavía no alcanza un umbral crítico.
+Existe un nivel de uso alto en la partición montada en `/media/AlexGomez/OS`, aunque todavía no alcanza un umbral crítico.
 
 El directorio `/var/log` ya ocupa un tamaño relevante y debe vigilarse para evitar crecimiento descontrolado.
 
