@@ -105,9 +105,9 @@ MiB Mem : 15684.3 total, 3718.9 free, 7243.1 used, 5758.1 buff/cache
 ```bash
 $ ps aux --sort=-%cpu | head
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-maurici+  118579 79.7  2.3 1463348076 378756 ?   Rl   19:18   0:56 /usr/share/code/code --type=zygote
-maurici+  118684 43.2  5.0 1480253572 809940 ?   Rl   19:18   0:30 /proc/self/exe --type=utility ...
-maurici+  118532 34.4  1.0 34515656 161860 ?     Rl   19:18   0:24 /usr/share/code/code --type=zygote --no-zygote-sandbox
+AlexGomez+  118579 79.7  2.3 1463348076 378756 ?   Rl   19:18   0:56 /usr/share/code/code --type=zygote
+AlexGomez+  118684 43.2  5.0 1480253572 809940 ?   Rl   19:18   0:30 /proc/self/exe --type=utility ...
+AlexGomez+  118532 34.4  1.0 34515656 161860 ?     Rl   19:18   0:24 /usr/share/code/code --type=zygote --no-zygote-sandbox
 ```
 
 ## Análisis
@@ -182,7 +182,7 @@ lsblk
 $ df -h
 /dev/sda2       863G  118G  702G  15% /
 /dev/sda1       975M  8.8M  966M   1% /boot/efi
-/dev/dm-0       454G  386G   69G  85% /media/mauriciodmo/OS
+/dev/dm-0       454G  386G   69G  85% /media/AlexGomez/OS
 ```
 
 ```bash
@@ -321,7 +321,7 @@ chmod 755 /tmp/archivo.txt
 
 ```bash
 $ who
-mauriciodmo seat0 2026-04-10 17:16 (:0)
+AlexGomez seat0 2026-04-10 17:16 (:0)
 ```
 
 ```bash
@@ -343,12 +343,12 @@ passwd: user 'usuario_prueba' does not exist
 $ chmod 755 /tmp/archivo.txt
 
 $ ls -l /tmp/archivo.txt
--rwxr-xr-x 1 mauriciodmo mauriciodmo ... /tmp/archivo.txt
+-rwxr-xr-x 1 AlexGomez AlexGomez ... /tmp/archivo.txt
 ```
 
 ## Análisis
 
-- **Usuario activo observado:** `mauriciodmo`
+- **Usuario activo observado:** `AlexGomez`
 - **Usuario creado:** no se completó la creación
 - **Permisos asignados:** `755` equivalente a `rwxr-xr-x`
 
